@@ -86,6 +86,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': os.getenv('DATABASE_ENGINE'),
+        'HOST': os.getenv('DATABASE_HOST'),
         'NAME': os.getenv('DATABASE_NAME'),
         'PORT': os.getenv('DATABASE_PORT'),
         'USER': os.getenv('DATABASE_USER'),
@@ -153,8 +154,8 @@ SIMPLE_JWT = {
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 
-CELERY_BROKER_URL = 'redis://127.0.0.1:6379/0'
-CELERY_RESULT_BACKEND = 'redis://127.0.0.1:6379/0'
+CELERY_BROKER_URL = 'redis://redis:6379/0'
+CELERY_RESULT_BACKEND = 'redis://redis:6379/0'
 
 CELERY_TIMEZONE = os.getenv('TIME_ZONE')
 
