@@ -13,6 +13,17 @@
 - Просмотр привычек со статусом публичные
 - Рассылка привычек в телеграм за 10 минут до необходимости осуществить действие
 
+## Технологии:
+
+[![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![OOP](https://img.shields.io/badge/-OOP-FF5733?style=flat)](https://en.wikipedia.org/wiki/Object-oriented_programming) [![DRF](https://img.shields.io/badge/-DRF-FF5733?style=flat&logo=django&logoColor=white)](https://www.django-rest-framework.org/)
+[![API](https://img.shields.io/badge/-API-4CAF50?style=flat)](https://en.wikipedia.org/wiki/Application_programming_interface)
+[![Celery](https://img.shields.io/badge/-Celery-37814A?style=flat&logo=celery&logoColor=white)](http://www.celeryproject.org/)
+[![PyTest](https://img.shields.io/badge/-PyTest-0A9EDC?style=flat&logo=python&logoColor=white)](https://docs.pytest.org/)
+[![Swagger](https://img.shields.io/badge/-Swagger-85EA2D?style=flat&logo=swagger&logoColor=white)](https://swagger.io/)
+[![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
+ [![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+
 ### Настройка сервиса:
 Для запуска приложения в Docker необходимо выполнить следующие команды:
 - docker-compose build
